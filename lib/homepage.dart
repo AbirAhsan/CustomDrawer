@@ -49,6 +49,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: MediaQuery.of(context).size.height / 2.5,
                 padding: EdgeInsets.all(0),
                 decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                    bottomLeft:
+                        Radius.circular(50.0), //This Border Radius doesn't Work
+                  ),
                   boxShadow: [
                     BoxShadow(
                         color: Colors.black12,
@@ -57,6 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
                 child: Material(
+                  borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(30.0),
+                      bottomRight: Radius.circular(30.0)),
                   child: ListView(
                     children: <Widget>[
                       Align(
