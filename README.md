@@ -1,16 +1,12 @@
 # customDrawer
 
-A new Flutter project.
+A Mobile App Custom Drawer UI
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a UI of Custom Drawer for Flutter Mobile App, which come come from Top to bottom
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Here is the sample--
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![drawer_sample](https://user-images.githubusercontent.com/24518666/84554621-8805a080-ad3a-11ea-8ac7-6c0e17eb8762.gif)
